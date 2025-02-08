@@ -1,0 +1,33 @@
+
+
+  @media  (max-width: 480px) and (orientation: portrait){
+    body {
+      background-color: lightsalmon;
+    }
+  }
+  @media  (max-width: 480px) and (orientation: landscape)  {
+    body {
+      background-color: rgb(247, 70, 0);
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+      background-color: powderblue;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-color: limegreen;
+    }
+  }
+
+  @media (min-width: 1601px) {
+    body {
+      background-color: seagreen;
+    }
+  }
+
+
+
