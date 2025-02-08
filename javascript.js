@@ -23,7 +23,8 @@ let isShowPlumber = true;
 function showAboutUs(){
     if(isShowAboutUs){
         
-        aboutUs.style.display ="flex";
+        aboutUs.style.display ="block";
+        aboutUs.style.position = "absolute";
         isShowAboutUs = false;
     }
 }
@@ -39,6 +40,7 @@ function closeAboutUs(){
 function showContact(){
 if(isShowContact){
     contact.style.display ="block";
+    contact.style.position = "absolute";
     isShowContact = false;
 }
     
@@ -52,6 +54,7 @@ function closeContact(){
 function showEngine(){
     if(isShowEngine){
         engine.style.display ="block";
+        engine.style.position = "absolute";
         isShowEngine = false;
     }
 }
@@ -64,6 +67,7 @@ function closeEngine(){
 function showUnity(){
     if(isShowUnity){
         unity.style.display ="block";
+        unity.style.position = "absolute";
         isShowUnity = false;
     }
 }
@@ -76,6 +80,7 @@ function closeUnity(){
 function showWebsites(){
     if(isShowWebsites){
         websites.style.display ="block";
+        websites.style.position = "absolute";
         isShowWebsites = false;
     }
 }
@@ -88,7 +93,7 @@ function closeWebsites(){
 function showPlumber(){
     if(isShowPlumber){
         plumber.style.display ="block";
-        isShowPlumber = false;
+        plumber.style.position = "absolute";
     }
 }
 function closePlumber(){
