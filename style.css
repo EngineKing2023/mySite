@@ -79,8 +79,8 @@
            }
        .myLogo{
         margin-top: 3vh;
-        width: 60vw;
-        height: 60vw;
+        width: 40vw;
+        height: 40vw;
        }
        .button0{
             display: none;
@@ -106,9 +106,9 @@
        .button1{
             display: none;
             width: 33vw;
-            height: 20vw;
+            height: 15vw;
                   font-size:7vw;
-                  margin: 5vw;
+                  margin: 0vw 0vw 3vw 5vw;
                   
                   cursor: pointer;
                   font-family: sans-serif, cursive;
@@ -131,9 +131,9 @@
        .button2{
                     display: none;
                     width: 33vw;
-            height: 20vw;
+            height: 15vw;
             font-size:7vw;
-                  margin: 5vw;
+            margin: 0vw 0vw 3vw 5vw;
                   cursor: pointer;
                   font-family: sans-serif, cursive;
                   text-decoration: none;
@@ -154,9 +154,9 @@
        .button3{
             display: none;
             width: 33vw;
-            height: 20vw;
+            height: 15vw;
             font-size:7vw;
-            margin: 5vw;
+            margin: 0vw 0vw 3vw 5vw;
             cursor: pointer;
             font-family: sans-serif, cursive;
             text-decoration: none;
@@ -176,9 +176,9 @@
        .button4{
             display: none;
             width: 33vw;
-            height: 20vw;
+            height: 15vw;
             font-size:7vw;
-            margin: 5vw;
+            margin: 0vw 0vw 3vw 5vw;
             cursor: pointer;
             font-family: sans-serif, cursive;
             text-decoration: none;
@@ -199,9 +199,9 @@
        .button5{
             display: none;
             width: 33vw;
-            height: 20vw;
+            height: 15vw;
             font-size:7vw;
-            margin: 5vw;
+            margin: 0vw 0vw 3vw 5vw;
             cursor: pointer;
             font-family: sans-serif, cursive;
             text-decoration: none;
@@ -221,9 +221,9 @@
        .button6{
              display: none;
              width: 33vw;
-             height: 20vw;
+             height: 15vw;
              font-size:7vw;
-             margin: 5vw;
+             margin: 0vw 0vw 3vw 5vw;
             cursor: pointer;
             font-family: sans-serif, cursive;
             text-decoration: none;
