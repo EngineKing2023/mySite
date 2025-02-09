@@ -20,10 +20,19 @@ let isShowWebsites = true;
 let plumber = document.querySelector(".plumber");
 let isShowPlumber = true;
 
+function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(45.32568,13.44015),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+
+
 function showAboutUs(){
     if(isShowAboutUs){
         
-        aboutUs.style.display ="block";
+        aboutUs.style.display ="flex";
         aboutUs.style.position = "absolute";
         isShowAboutUs = false;
     }
@@ -39,7 +48,7 @@ function closeAboutUs(){
 
 function showContact(){
 if(isShowContact){
-    contact.style.display ="block";
+    contact.style.display ="flex";
     contact.style.position = "absolute";
     isShowContact = false;
 }

@@ -7,25 +7,42 @@
     <title>Autonomus</title>
     <link rel="icon" type="images/x-icon" href="images/stars+48px-131985193880289588_48px.png">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="aboutUs">
-        <button onclick="closeAboutUs()">Close</button>
+        <h1>Why work with us?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Optio harum atque nostrum impedit tempora quam vel consequatur, 
+            est dignissimos ut adipisci sint minima debitis. 
+            Quia velit deleniti earum numquam dignissimos.</p>
+        <img class="slika" src="images/pexels-fauxels-3184418.jpg" alt="team picture">
+        <h3>Do you wish to become part of our team?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Optio harum atque nostrum impedit tempora quam vel consequatur, 
+            est dignissimos ut adipisci sint minima debitis. 
+            Quia velit deleniti earum numquam dignissimos.</p>
+        <button onclick="closeAboutUs()" class="btt2 close">Close</button>
     </div>
     <div class="contact">
-        <button onclick="closeContact()">Close</button>
+        <h1>Contact</h1>
+        <img class="slika" src="images/pexels-negativespace-33999 (1).jpg" alt="phone photo">
+        <p class="fonska">+386-64-188-332 <br> engineking2023@gmail.com</p>
+        <h3>Our location</h3>
+        <div id="googleMap" style="align-items: center; width:80%;height: 40vw;"></div>
+        <button onclick="closeContact()" class="btt2 close">Close</button>
     </div>
     <div class="engine">
-        <button onclick="closeEngine()">Close</button>
+        <button onclick="closeEngine()" class="btt">Close</button>
     </div>
     <div class="unity">
-        <button onclick="closeUnity()">Close</button>
+        <button onclick="closeUnity()" class="btt">Close</button>
     </div>
     <div class="websites">
-        <button onclick="closeWebsites()">Close</button>
+        <button onclick="closeWebsites()" class="btt">Close</button>
     </div>
     <div class="plumber">
-        <button onclick="closePlumber()">Close</button>
+        <button onclick="closePlumber()" class="btt">Close</button>
     </div>
     <div class="container">
 
@@ -34,20 +51,20 @@
             <div class="container3">
 
                 
-                <div><button id="btn">enter</button></div>
-                <div><img class="myLogo" src="images/MyLOGO.png" alt="my logo"></div>
+                <div><button id="btn" class="btt">enter</button></div>
+                <div><img class="myLogo btt" src="images/MyLOGO.png" alt="my logo"></div>
                 
             </div>
             <div class="container2">
                 <div>
-                    <button onclick="showAboutUs()" class="button1">About us</button>
-                    <button onclick="showContact()" class="button2">Contact</button>
-                    <button onclick="showEngine()" class="button3">Engine</button>
+                    <button onclick="showAboutUs()" class="button1 btt">About us</button>
+                    <button onclick="showContact()" class="button2 btt">Contact</button>
+                    <button onclick="showEngine()" class="button3 btt">Engine</button>
                 </div>
                 <div>
-                    <button onclick="showUnity()" class="button4">Unity</button>
-                    <button onclick="showWebsites()"class="button5">Websites</button>
-                    <button onclick="showPlumber()"class="button6">Plumber</button>
+                    <button onclick="showUnity()" class="button4 btt">Unity</button>
+                    <button onclick="showWebsites()"class="button5 btt">Websites</button>
+                    <button onclick="showPlumber()"class="button6 btt">Plumber</button>
                 </div>
                 
                 
@@ -59,5 +76,7 @@
     
     
 </body>
+
 <script src="javascript.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </html>
